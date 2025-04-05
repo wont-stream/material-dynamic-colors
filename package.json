@@ -7,16 +7,17 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "node ./build/build.js",
+    "build": "bun ./build/build.js",
     "test": "vitest run --root=./test"
   },
   "dependencies": {
     "@material/material-color-utilities": "^0.2.7"
   },
   "devDependencies": {
-    "typescript": "^5.0.2",
-    "vite": "^4.3.9",
-    "vitest": "^0.32.4"
+    "typescript": "^5.8.3",
+    "vite": "^4.5.12",
+    "vitest": "^0.32.4",
+    "@types/bun": "latest"
   },
   "files": [
     "dist/cdn",
@@ -41,5 +42,6 @@
   },
   "bugs": {
     "url": "https://github.com/leonardorafael/material-dynamic-colors/issues"
-  }
+  },
+  "private": true
 }

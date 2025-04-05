@@ -38,6 +38,5 @@ export interface IMaterialDynamicColorsThemeColor {
 }
 
 export interface IMaterialDynamicColorsTheme {
-  light: IMaterialDynamicColorsThemeColor,
   dark: IMaterialDynamicColorsThemeColor
 }
